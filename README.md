@@ -7,9 +7,7 @@ Encrypting a message in MIPS written in a horizontal grid with fixed width, and 
 As an example, if the plaintext is “ATTACKATDAWN” and the grid width of 4, it is written as follows:
 
 | A | T | T | A |
-|---|---|---|---|
 | C | K | A | T |
-|---|---|---|---|
 | D | A | W | N |
 
 Reading it vertically will yield the ciphertext “ACDTKATAWATN”. To decrypt it, it will have to be written vertically into the same grid (height = 12/ 4 = 3) and read horizontally, to come up with the original plaintext.
